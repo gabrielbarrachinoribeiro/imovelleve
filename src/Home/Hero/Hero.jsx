@@ -31,7 +31,7 @@ function Hero() {
             </p>
           </div>
 
-          <form action="/#imoveis" method="get" aria-label="Buscar imóveis" className="grid grid-cols-1 items-stretch gap-3 rounded-3xl bg-[#FAF9F6] p-4 text-[#0A0D12] shadow-xl shadow-black/10 sm:grid-cols-2 lg:grid-cols-[auto_minmax(0,1fr)_minmax(0,1fr)_auto] lg:gap-2">
+          <form action="/imoveis" method="get" aria-label="Buscar imóveis" className="grid grid-cols-1 items-stretch gap-3 rounded-3xl bg-[#FAF9F6] p-4 text-[#0A0D12] shadow-xl shadow-black/10 sm:grid-cols-2 lg:grid-cols-[auto_minmax(0,1fr)_minmax(0,1fr)_auto] lg:gap-2">
             <input type="hidden" name="finalidade" value={purpose} />
             <div role="group" aria-label="Finalidade do imóvel" className="flex rounded-2xl bg-[#0A0D12]/4 p-1 sm:col-span-2 lg:col-span-1">
               {['comprar', 'alugar'].map((value) => (

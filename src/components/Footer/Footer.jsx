@@ -19,23 +19,23 @@ const navigation = [
   {
     title: 'Explorar',
     links: [
-      { label: 'Comprar', href: '/?finalidade=comprar#imoveis' },
-      { label: 'Alugar', href: '/?finalidade=alugar#imoveis' },
-      { label: 'Todos os imóveis', href: '/#imoveis' },
+      { label: 'Comprar', href: '/comprar' },
+      { label: 'Alugar', href: '/alugar' },
+      { label: 'Todos os imóveis', href: '/imoveis' },
     ],
   },
   {
     title: 'Categorias',
     links: [
-      { label: 'Apartamentos', href: '/?tipo=apartamento#imoveis' },
-      { label: 'Casas', href: '/?tipo=casa#imoveis' },
-      { label: 'Studios', href: '/?tipo=studio#imoveis' },
-      { label: 'Coberturas', href: '/?tipo=cobertura#imoveis' },
+      { label: 'Apartamentos', href: '/imoveis?tipo=apartamento' },
+      { label: 'Casas', href: '/imoveis?tipo=casa' },
+      { label: 'Studios', href: '/imoveis?tipo=studio' },
+      { label: 'Coberturas', href: '/imoveis?tipo=cobertura' },
     ],
   },
   {
-    title: 'Imóvelleve',
-    links: [{ label: 'Sobre nós', href: '/#sobre' }],
+    title: 'Imovel Leve',
+    links: [{ label: 'Sobre nós', href: '/sobre' }],
   },
 ]
 
@@ -54,8 +54,8 @@ function Footer() {
       <div className="container mx-auto px-6">
         <div className="grid gap-10 lg:grid-cols-[1.15fr_2fr] lg:gap-12 xl:gap-16">
           <div>
-            <a href="/" aria-label="Imóvelleve — início" className="inline-block rounded-sm">
-              <img src={logo} alt="Imóvelleve" className="block w-44 brightness-0 invert" />
+            <a href="/" aria-label="Imovel Leve — início" className="inline-block rounded-sm">
+              <img src={logo} alt="Imovel Leve" className="block w-44 brightness-0 invert" />
             </a>
             <p className="mt-6 max-w-sm text-sm leading-relaxed text-white/65">
               Uma plataforma fictícia criada para tornar a busca pelo próximo lar mais simples, transparente e agradável — do primeiro filtro à visita.
@@ -106,7 +106,7 @@ function Footer() {
         </div>
 
         <div className="mt-12 flex flex-col justify-between gap-3 border-t border-white/10 pt-6 text-xs leading-5 text-white/45 sm:mt-14 md:flex-row md:gap-8">
-          <p>© {currentYear} Imóvelleve. Projeto fictício para portfólio.</p>
+          <p>© {currentYear} Gabriel Barrachino. Projeto fictício para portfólio.</p>
           <p>Todos os imóveis, valores e contatos apresentados são ilustrativos.</p>
         </div>
       </div>

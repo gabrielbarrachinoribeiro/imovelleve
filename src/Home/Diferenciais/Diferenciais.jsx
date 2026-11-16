@@ -25,7 +25,7 @@ function Diferenciais() {
         <div className="grid items-start gap-8 lg:grid-cols-[1.15fr_2fr] lg:gap-12 xl:gap-16">
           <div>
             <p className="mb-4 text-[11px] leading-4 font-semibold tracking-[0.24em] uppercase text-[#C64400]">
-              Por que a Imóvelleve
+              Por que a Imovel Leve
             </p>
             <h2 id="diferenciais-title" className="max-w-lg text-3xl leading-[1.1] font-bold tracking-[-0.04em] sm:text-4xl lg:text-[44px]">
               Menos ruído, mais decisões certeiras.
@@ -70,7 +70,7 @@ function Diferenciais() {
             <p className="mx-auto mt-6 max-w-lg text-base leading-relaxed text-white/65 sm:text-lg">
               Descubra imóveis que combinam com seus planos e encontre o espaço ideal para viver.
             </p>
-            <a href="#imoveis" className="group mt-9 inline-flex items-center justify-center gap-4 rounded-full border border-transparent bg-[#FA5700] px-5 py-2.5 text-sm leading-5 font-semibold text-white shadow-[0_8px_30px_-12px_rgba(250,87,0,0.6)] transition-[color,background-color,border-color,box-shadow] duration-300 ease-in-out hover:border-white hover:bg-white hover:text-[#0A0D12] hover:shadow-[0_8px_35px_-10px_rgba(250,87,0,0.45)] focus-visible:bg-white focus-visible:text-[#0A0D12]">
+            <a href="/imoveis" className="group mt-9 inline-flex items-center justify-center gap-4 rounded-full border border-transparent bg-[#FA5700] px-5 py-2.5 text-sm leading-5 font-semibold text-white shadow-[0_8px_30px_-12px_rgba(250,87,0,0.6)] transition-[color,background-color,border-color,box-shadow] duration-300 ease-in-out hover:border-white hover:bg-white hover:text-[#0A0D12] hover:shadow-[0_8px_35px_-10px_rgba(250,87,0,0.45)] focus-visible:bg-white focus-visible:text-[#0A0D12]">
               Explorar imóveis
               <span className="border-l border-white/25 pl-4 text-white transition-colors duration-300 group-hover:border-[#0A0D12]/15 group-hover:text-[#FA5700] group-focus-visible:border-[#0A0D12]/15 group-focus-visible:text-[#FA5700]">
                 <ArrowRight size={20} aria-hidden="true" />
